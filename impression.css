@@ -1,0 +1,45 @@
+@media print {
+  @page {
+    size: 330mm 427mm;
+    margin: 14mm;
+  }
+  
+
+body { /* Modifications : la couleur de fond de page - la police - l'unitÃ© utilisÃ©e pour la taille de la police  */
+  background-color : black;
+  font-family : Serif;
+  font-size : 15pt;
+}
+
+
+#header {
+  display: none;;
+}
+
+.block{
+  display: block;
+  margin: 50px;
+  margin-right: 5px;
+}
+.block:hover{
+  box-shadow: none;
+}
+p, ul, li, span{
+  font-family: sans-serif;
+  size: 12px;
+  margin-top: 2px;
+
+}
+h1{ /* Affichage du titre */
+  margin : 0;
+  padding : 0;
+  text-indent : 0;
+  line-height : 25pt;
+  font-size : 30px;
+  color: black;
+  width: 800px;
+}
+
+
+
+}
